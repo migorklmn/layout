@@ -1,0 +1,166 @@
+@media (max-width: 1366px) {
+    .content {
+        width: 60%;
+        top: 40%;
+    }
+}
+@media (min-width: 1366px) {
+    .content {
+        width: 60%;
+        top: 40%;
+    }
+}
+@media (max-width: 800px) {
+    .content {
+        width: 75%;
+    }
+}
+@media (max-height: 525px) {
+    .content {
+        top: 20%;
+    }
+    .contact_string {
+        width: 80%;
+    }
+}
+body {
+    background-color: #666;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 405px;
+    max-width: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Заголовки */
+h2 {
+    font-size: 24px;
+    /*background-color: #fff;*/
+    position: relative;
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+/* лист страниц */
+.page_control {
+    z-index: 3;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 15px 12px 0;
+    padding: 0;
+    list-style: none;
+}
+.page_control > li {
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.page_control > li:hover {
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+}
+/* страницы */
+.carousel {
+    top: 0;
+    transition: 0.6s ease-in-out;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.contact {
+    font-size: 45px;
+    z-index: 3;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 50px;
+    right: 0;
+    position: absolute;
+    margin: 15px 15px 0 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.contact_page {
+    z-index: 5;
+    display: block;
+    top: -70px;
+    right: 70px;
+    padding: 10px;
+    color: #fff;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: #000;
+    transition: 0.6s;
+}
+/* Контент */
+.content {
+    font-size: 13px;
+    margin-left: 15px;
+    position: relative;
+    height: auto;
+    /*background-color: #fff;*/
+}
+
+p {
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+.x {
+    z-index: 4;
+    top: 10px;
+    right: 10px;
+    width: 10px;
+    display: block;
+    position: absolute;
+}
+.contact_string {
+    position: absolute;
+    list-style: none;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 15px 15px;
+    padding: 0;
+    z-index: 3;
+}
+.contact_string > li {
+    display: inline-block;
+    color: #fff;
+}
+.logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 4;
+}
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
